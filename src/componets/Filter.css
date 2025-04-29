@@ -1,0 +1,29 @@
+.filter {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: 20px auto;
+	justify-content: center;
+	font-family: Arial, sans-serif;
+  }
+  
+  .filter label {
+	font-weight: bold;
+	font-size: 16px;
+	color: #333;
+  }
+  
+  .filter select {
+	padding: 8px 12px;
+	font-size: 14px;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	background-color: #f8f8f8;
+	transition: border-color 0.3s ease;
+  }
+  
+  .filter select:focus {
+	border-color: #ef5350;
+	outline: none;
+  }
+  

@@ -7,6 +7,8 @@
   pointer-events: none;
 }
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +28,76 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.container {
+  max-width: 1200px; /* Maximum width */
+  margin: 0 auto; 
+  font-family: sans-serif;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+  gap: 20px; /* Space between cards */
+  margin-bottom: 20px; /* Space below the grid */
+}
+
+/* Make the grid responsive (2 columns for medium screens, 1 column for smaller screens) */
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* 1 column for small screens */
+  }
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 40px; 
+}
+
+.pagination button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.pagination button:disabled {
+  background-color: #f0f0f0;
+  color: #ccc;
+  cursor: not-allowed;
 }
 
 @keyframes App-logo-spin {
