@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/VidyeshThakare/pokemon-react-app.git/static/css/main.96dc9f83.css",
-    "main.js": "/VidyeshThakare/pokemon-react-app.git/static/js/main.9c5424fe.js",
-    "static/js/453.5092e222.chunk.js": "/VidyeshThakare/pokemon-react-app.git/static/js/453.5092e222.chunk.js",
-    "static/media/pokeapi_256.3fa72200.png": "/VidyeshThakare/pokemon-react-app.git/static/media/pokeapi_256.3fa72200.888baca4809420be1126.png",
-    "index.html": "/VidyeshThakare/pokemon-react-app.git/index.html",
-    "main.96dc9f83.css.map": "/VidyeshThakare/pokemon-react-app.git/static/css/main.96dc9f83.css.map",
-    "main.9c5424fe.js.map": "/VidyeshThakare/pokemon-react-app.git/static/js/main.9c5424fe.js.map",
-    "453.5092e222.chunk.js.map": "/VidyeshThakare/pokemon-react-app.git/static/js/453.5092e222.chunk.js.map"
+    "main.css": "/vidyeshthakare/pokemon-react-app/static/css/main.96dc9f83.css",
+    "main.js": "/vidyeshthakare/pokemon-react-app/static/js/main.9a7de999.js",
+    "static/js/453.5092e222.chunk.js": "/vidyeshthakare/pokemon-react-app/static/js/453.5092e222.chunk.js",
+    "static/media/pokeapi_256.3fa72200.png": "/vidyeshthakare/pokemon-react-app/static/media/pokeapi_256.3fa72200.888baca4809420be1126.png",
+    "index.html": "/vidyeshthakare/pokemon-react-app/index.html",
+    "main.96dc9f83.css.map": "/vidyeshthakare/pokemon-react-app/static/css/main.96dc9f83.css.map",
+    "main.9a7de999.js.map": "/vidyeshthakare/pokemon-react-app/static/js/main.9a7de999.js.map",
+    "453.5092e222.chunk.js.map": "/vidyeshthakare/pokemon-react-app/static/js/453.5092e222.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96dc9f83.css",
-    "static/js/main.9c5424fe.js"
+    "static/js/main.9a7de999.js"
   ]
 }
