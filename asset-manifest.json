@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/vidyeshthakare/pokemon-react-app/static/css/main.96dc9f83.css",
-    "main.js": "/vidyeshthakare/pokemon-react-app/static/js/main.9a7de999.js",
-    "static/js/453.5092e222.chunk.js": "/vidyeshthakare/pokemon-react-app/static/js/453.5092e222.chunk.js",
-    "static/media/pokeapi_256.3fa72200.png": "/vidyeshthakare/pokemon-react-app/static/media/pokeapi_256.3fa72200.888baca4809420be1126.png",
-    "index.html": "/vidyeshthakare/pokemon-react-app/index.html",
-    "main.96dc9f83.css.map": "/vidyeshthakare/pokemon-react-app/static/css/main.96dc9f83.css.map",
-    "main.9a7de999.js.map": "/vidyeshthakare/pokemon-react-app/static/js/main.9a7de999.js.map",
-    "453.5092e222.chunk.js.map": "/vidyeshthakare/pokemon-react-app/static/js/453.5092e222.chunk.js.map"
+    "main.css": "/pokemon-react-app/static/css/main.96dc9f83.css",
+    "main.js": "/pokemon-react-app/static/js/main.cde150bc.js",
+    "static/js/453.5092e222.chunk.js": "/pokemon-react-app/static/js/453.5092e222.chunk.js",
+    "static/media/pokeapi_256.3fa72200.png": "/pokemon-react-app/static/media/pokeapi_256.3fa72200.888baca4809420be1126.png",
+    "index.html": "/pokemon-react-app/index.html",
+    "main.96dc9f83.css.map": "/pokemon-react-app/static/css/main.96dc9f83.css.map",
+    "main.cde150bc.js.map": "/pokemon-react-app/static/js/main.cde150bc.js.map",
+    "453.5092e222.chunk.js.map": "/pokemon-react-app/static/js/453.5092e222.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96dc9f83.css",
-    "static/js/main.9a7de999.js"
+    "static/js/main.cde150bc.js"
   ]
 }
