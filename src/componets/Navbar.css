@@ -5,13 +5,15 @@
 	position: sticky;
 	top: 0;
 	z-index: 1000;
-	margin-bottom: 40px;
+	
   }
   
   .navbar-container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	width: 90%;
+	margin-left: 20px;
   }
   
   .navbar-logo {
