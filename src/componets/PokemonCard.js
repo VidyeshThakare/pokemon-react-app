@@ -6,6 +6,7 @@ import Pagination from "./Pagination";
 import "bootstrap/dist/css/bootstrap.min.css";
 import banner from "../Asserts/pokemon-banner.webp";
 import PokiLogo from '../Asserts/pokeball.png'
+import Hero from "./Hero";
 
 const URL = "https://pokeapi.co/api/v2/pokemon?limit=150";
 const PokemonCard = () => {
@@ -118,6 +119,9 @@ const PokemonCard = () => {
     <div className="App, container">
       
 
+      {/* just to check */}
+      
+
       {/* search section */}
       <span 
         style={{
@@ -164,7 +168,10 @@ const PokemonCard = () => {
             <div className="card">
               <div className="container-below">
                 <div className="bg-animation">
-                  <img src={pokemon.sprites.front_default} alt={pokemon.name} />
+                <img
+   src={pokemon.sprites.other["official-artwork"].front_default}
+  alt={pokemon.name}
+/>
                 </div>
                 <h3>
                   {pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}
